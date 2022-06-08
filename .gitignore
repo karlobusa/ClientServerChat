@@ -3,3 +3,6 @@
 
 #Visual code files
 *.vscode
+
+#Object files
+*.o
