@@ -1,8 +1,12 @@
-#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <sys/types.h>
 
-int main()
+
+int main(int argc, char* argv[])
 {
-    printf("Hello\n");
+    int sk;
+
 
     return 0;
 }
