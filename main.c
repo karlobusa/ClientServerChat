@@ -44,7 +44,7 @@ int main(void)
 
 	printf("Poslano    : %s\t checksum:%x\n", poruka, checksum(poruka, strlen(poruka)));
 
-	//fake corrupetion
+	//fake error
 	char* poruka2 = corrupte_message(poruka, 1);
 
 	printf("Primljeno  : %s\t checksum:%x\n", poruka2, checksum(poruka2, strlen(poruka2)));
