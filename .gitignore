@@ -1,0 +1,5 @@
+# Binaries for programs
+*.exe
+
+#Visual code files
+*.vscode
